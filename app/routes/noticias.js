@@ -5,7 +5,7 @@ module.exports = function(app){
         var mysql = require('mysql');
 
         var connection = mysql.createConnection({
-            host : '18.231.188.23:8080',
+            host : '18.231.188.23',
             user : 'root',
             password : 'cyberbex88',
             database : 'portal_noticias'
